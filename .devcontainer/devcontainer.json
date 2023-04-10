@@ -1,0 +1,25 @@
+{
+	"name": "python${env:PYTHON_VERSION}-cpp",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"MS-CEINTL.vscode-language-pack-ja",
+				"eamodio.gitlens",
+				"yzhang.markdown-all-in-one",
+				"shd101wyy.markdown-preview-enhanced",
+				"ms-vscode.cpptools-extension-pack",
+				"ms-azuretools.vscode-docker",
+				"donjayamanne.python-extension-pack"
+			],
+			"settings": {
+				"extensions.ignoreRecommendations": true,
+				"json.format.enable": true,
+				"files.eol":"\r\n",
+				"editor.tabSize": 4
+			}
+		}
+	}
+}
